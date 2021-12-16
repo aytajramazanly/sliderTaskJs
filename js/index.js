@@ -48,7 +48,11 @@ images.forEach((image)=>{
 closeBtn.addEventListener("click", ()=>{
     galleryClose()
 })
-
+popup.addEventListener("click", (e) => {
+    if (e.target.id==="popup") {
+        galleryClose()
+    }
+  });
 nextBtn.addEventListener("click",()=>{
 nextImage(document.querySelector(".active-img"))
 })
