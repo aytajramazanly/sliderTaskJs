@@ -15,5 +15,8 @@ body{
 
 
 .name-uppercase{
- text-transform: uppercase;
+    display: inline-block !important;
+    &::first-letter{
+        text-transform: uppercase;
+    }
 }

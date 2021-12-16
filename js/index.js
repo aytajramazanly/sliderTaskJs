@@ -52,7 +52,8 @@ popup.addEventListener("click", (e) => {
     if (e.target.id==="popup") {
         galleryClose()
     }
-  });
+});
+
 nextBtn.addEventListener("click",()=>{
 nextImage(document.querySelector(".active-img"))
 })
