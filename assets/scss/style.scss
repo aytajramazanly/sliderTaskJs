@@ -1,0 +1,19 @@
+@import "./partial/index";
+
+body{
+    h1,
+    h2,
+    h4{
+        color: white;
+    }
+    h4{
+        font-weight: 300;
+    }
+   
+    overflow: idden;
+}
+
+
+.name-uppercase{
+ text-transform: uppercase;
+}
