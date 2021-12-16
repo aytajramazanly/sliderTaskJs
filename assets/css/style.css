@@ -167,6 +167,13 @@
   border: 8px solid white;
 }
 
+#popup .inner p {
+  margin: 0;
+  background-color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
 #popup .inner .close-icon {
   position: absolute;
   top: -2%;

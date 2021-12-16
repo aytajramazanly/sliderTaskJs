@@ -9,6 +9,12 @@
     .inner{
         position: relative;
         border: 8px solid white;
+        p{
+        margin: 0;
+        background-color: white;
+        padding: 10px 0;
+        text-align: center;
+        }
         .close-icon{
             position: absolute;
             top: -2%;
